@@ -46,5 +46,12 @@ TBD
 ## Submodules
 Cortano & CortanoNanoBridge by Timothy Young
 
+## Guide
+
+### Cortano
+> Setup Cortano on Computer Controller
+>> Navigate to ./Cortano and run `python3 -m pip install .` to install the API
+>> Note the IP Address of the Jetson Nano
+>> Use robot.py `python3 robot.py` but ensure that the IP Address specified is Jetson's IP Address `ifconfig`
 ## Contact
 Chun Wu - [TheChunWu](https://twitter.com/TheChunWu)
