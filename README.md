@@ -1,2 +1,47 @@
 # robotics
+
 AI/ML with robotics
+
+## Bill of Materials
+TBD
+
+## Stuff Used
+- Cortano
+- CortanoNanoBridge
+- OpenCV
+- etc.
+
+## Session #1 (Structure, Motion, Communication)
+- Chassis
+- Motors
+- Gears
+- Power
+- Joints
+- End Effectors
+- Communication (Python)
+
+## Session #2 Neural Networks, Object Recognition, Depth Processing
+- Neural Network Purpose
+- Neural Network 'Learning'
+- Neural Network Data Constraints
+- Camera Input
+- Object Recognition (ML)
+- Depth Extraction
+
+## Session #3 Motion Control, Joint Control
+- ICP 
+- Motion Tracking
+- Depth Projections
+- Gridmap Construction
+  
+## Session #4 Positioning, Object Tracking, Collision Mapping
+- Objective-oriented Thinking
+- Breadth First Search
+- A*
+- Utility (State-Action)
+- Decision Graph Construction
+- MDPs
+- Q-Learning (ML)
+
+## Contact
+Chun Wu - [TheChunWu](https://twitter.com/TheChunWu)
