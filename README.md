@@ -48,10 +48,18 @@ Cortano & CortanoNanoBridge by Timothy Young
 
 ## Guide
 
-### Cortano
+### CortextNanoBridge (/CortextNanoBridge)
+> Setup CortexNanoBridge on Jetson Nano
+>> - Navigate to Jetson Nano Folder `cd ../CortextNanoBridge/jetson_nano`
+>> - Make the install file executable `chmod +x install.sh`
+>> - Install CortextNanoBridge onto the Jetson Nano `./install.sh`
+>> - Reboot the Jetson Nano `sudo reboot`
+ 
+### Cortano (/Cortano)
 > Setup Cortano on Computer Controller
->> Navigate to ./Cortano and run `python3 -m pip install .` to install the API
->> Note the IP Address of the Jetson Nano
->> Use robot.py `python3 robot.py` but ensure that the IP Address specified is Jetson's IP Address `ifconfig`
+>> - Navigate to ./Cortano and run `python3 -m pip install .` to install the API
+>> - Note the IP Address of the Jetson Nano
+>> - Use robot.py, `python3 robot.py` but ensure that the IP Address specified is Jetson's IP Address `ifconfig`
+
 ## Contact
 Chun Wu - [TheChunWu](https://twitter.com/TheChunWu)
