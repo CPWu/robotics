@@ -48,11 +48,19 @@ Cortano & CortanoNanoBridge by Timothy Young
 
 ## Guide
 
+### Python Libraries
+> Install Python Libraries (PySerial, NumPy, SciPy, Flask, Python3-OpenCV)
+>> Install the libraries mentioned above.
+```
+sudo apt-get install python3-pip
+sudo pip3 install --upgrade pip
+sudo pip3 install pyserial numpy scipy Flask
+sudo apt-get install python3-opencv
+```
 ### PyRealSense
 > Install PyRealSense
 >> - Install [PyRealSense2](https://drive.google.com/file/d/1Fw8zVV-cP5c9xpp-JplMKnJGe5nVNNaY/view?usp=drive_link) onto the Jetson Nano `./PyRealSense` (Jetson Nano Python3.6 cu10.2)
 >> - Attach the RealSense camera to the Jetson Nano and try running the RealSense Viewer to ensure it works in USB 3.2 mode.
-
 ```
 chmod +x install.sh
 sudo ./install.sh
