@@ -48,13 +48,19 @@ Cortano & CortanoNanoBridge by Timothy Young
 
 ## Guide
 
-### CortextNanoBridge (/CortextNanoBridge)
+### RobotC
+> Install RobotC
+>> - Download RobotC from [VexRobitics](https://www.vexrobotics.com/robotc-vexedr-vexiq.html)
+>> - Set the board to Vex 2.0 Cortext (Robot -> Platform Type -> -> Vex 2.0 Cortex)
+>> - Change the Vex Cortext Communication Mode to USB Only
+
+### CortexNanoBridge (/CortexNanoBridge)
 > Setup CortexNanoBridge on Jetson Nano
 >> - Navigate to Jetson Nano Folder `cd ../CortextNanoBridge/jetson_nano`
 >> - Make the install file executable `chmod +x install.sh`
 >> - Install CortextNanoBridge onto the Jetson Nano `./install.sh`
 >> - Reboot the Jetson Nano `sudo reboot`
- 
+
 ### Cortano (/Cortano)
 > Setup Cortano on Computer Controller
 >> - Navigate to ./Cortano and run `python3 -m pip install .` to install the API
