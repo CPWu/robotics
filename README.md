@@ -101,5 +101,12 @@ sudo chmod +x ./realsense-viewer
 >> - Note the IP Address of the Jetson Nano
 >> - Use robot.py, `python3 robot.py` but ensure that the IP Address specified is Jetson's IP Address `ifconfig`
 
+### Additional Python Frameworks
+> PyTorch
+>> Install [PyTorch](https://pytorch.org/get-started/locally/)
+```
+pip3 install torch torchvision
+```
+
 ## Contact
 Chun Wu - [TheChunWu](https://twitter.com/TheChunWu)
