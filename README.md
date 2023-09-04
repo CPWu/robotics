@@ -48,9 +48,22 @@ Cortano & CortanoNanoBridge by Timothy Young
 
 ## Guide
 
-### RobotC
+### PyRealSense
+> Install PyRealSense
+>> - Install [PyRealSense2](https://drive.google.com/file/d/1Fw8zVV-cP5c9xpp-JplMKnJGe5nVNNaY/view?usp=drive_link) onto the Jetson Nano `./PyRealSense` (Jetson Nano Python3.6 cu10.2)
+>> - Attach the RealSense camera to the Jetson Nano and try running the RealSense Viewer to ensure it works in USB 3.2 mode.
+
+```
+chmod +x install.sh
+sudo ./install.sh
+cd /usr/local/bin
+sudo chmod +x ./realsense-viewer
+./realsense-viewer
+```
+
+### RobotC (Vex MicroController)
 > Install RobotC
->> - Download RobotC from [VexRobitics](https://www.vexrobotics.com/robotc-vexedr-vexiq.html)
+>> - Download RobotC from [VexRobotics](https://www.vexrobotics.com/robotc-vexedr-vexiq.html)
 >> - Set the board to Vex 2.0 Cortext (Robot -> Platform Type -> -> Vex 2.0 Cortex)
 >> - Change the Vex Cortext Communication Mode to USB Only
 
