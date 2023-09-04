@@ -1,0 +1,6 @@
+[submodule "CortexNanoBridge"]
+	path = CortexNanoBridge
+	url = https://github.com/timrobot/CortexNanoBridge.git
+[submodule "Cortano"]
+	path = Cortano
+	url = https://github.com/timrobot/Cortano.git

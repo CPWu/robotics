@@ -1,4 +1,4 @@
-# robotics
+# Robotics
 
 AI/ML with robotics
 
@@ -42,6 +42,9 @@ TBD
 - Decision Graph Construction
 - MDPs
 - Q-Learning (ML)
+
+## Submodules
+Cortano & CortanoNanoBridge by Timothy Young
 
 ## Contact
 Chun Wu - [TheChunWu](https://twitter.com/TheChunWu)
