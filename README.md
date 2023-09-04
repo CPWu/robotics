@@ -48,15 +48,28 @@ Cortano & CortanoNanoBridge by Timothy Young
 
 ## Guide
 
+### Jetson Nano 
+> Jetson Nano Setup
+>> - Download the [Jetson Nano Developers Kit SD Card Image](https://developer.nvidia.com/embedded/downloads))
+>> - Flash the image onto the available 64GB SD Card using [balenaEtcher](https://etcher.balena.io/).
+>> - Put SD Card into Jetson Nano, attach an HDMI Cable/Monitor, Keyboard and Mouse, and finally plug the power cable in to boot up. *Wait until everything is connected before plugging in the barrel power cable into Jetson Nano*
+>> - Use any username and password combination. Remember to set "log in automatically" instead of "require my password to log in". Set the power usage to MAXN (not 5W) 
+>> - Once you are logged in, open a Terminal (you can right click on desktop to show Open Terminal) and type the following:
+```
+sudo apt-get update && sudo apt-get upgrade
+sudo reboot
+```
+
 ### Python Libraries
 > Install Python Libraries (PySerial, NumPy, SciPy, Flask, Python3-OpenCV)
->> Install the libraries mentioned above.
+>> - Install the libraries mentioned above.
 ```
 sudo apt-get install python3-pip
 sudo pip3 install --upgrade pip
 sudo pip3 install pyserial numpy scipy Flask
 sudo apt-get install python3-opencv
 ```
+
 ### PyRealSense
 > Install PyRealSense
 >> - Install [PyRealSense2](https://drive.google.com/file/d/1Fw8zVV-cP5c9xpp-JplMKnJGe5nVNNaY/view?usp=drive_link) onto the Jetson Nano `./PyRealSense` (Jetson Nano Python3.6 cu10.2)
