@@ -4,3 +4,6 @@
 [submodule "Cortano"]
 	path = Cortano
 	url = https://github.com/timrobot/Cortano.git
+[submodule "libusb"]
+	path = libusb
+	url = https://github.com/libusb/libusb

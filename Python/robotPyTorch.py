@@ -1,13 +1,14 @@
 # Object Detection -> SLAM -> Motion
 
 from cortano import RemoteInterface
-from torch.torchvision.models.detection import markrcnn_resnet50_fpn
-from torchvisions import transforms
+import torch
+from torchvision.models.detection import maskrcnn_resnet50_fpn
+from torchvision import transforms
 from PIL import Image
 import cv2
 
 if __name__ == "__main__":
-    robot = RemoteInterface("192.168.87.130")
+    robot = RemoteInterface("192.168.50.88")
     model = maskrcnn_resnet50_fpn(pretrained=True, pretrained_backbone=True)
     model.eval()
 
